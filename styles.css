@@ -226,7 +226,6 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid palevioletred;
 }
 
 @media screen and (max-width: 1200px) {
@@ -275,13 +274,11 @@ ul {
   align-items: center;
   width: 100%;
   margin-top: 52px;
-  background-color: beige;
 }
 
 .card-work-row-1 {
   width: 98.63%;
   height: 482px;
-  background-color: rgb(255, 127, 240);
   display: grid;
   grid-template-columns: 32.33% 32.33% 32.33%;
   column-gap: 2%;
@@ -292,7 +289,6 @@ ul {
 .card-work-row-2 {
   width: 98.63%;
   height: 482px;
-  background-color: aquamarine;
   display: grid;
   grid-template-columns: 32.33% 32.33% 32.33%;
   column-gap: 2%;
@@ -323,9 +319,9 @@ ul {
   text-align: center;
   width: 100%;
   height: 222px;
-  background-color: #fff;
   border: 1px solid none;
   border-radius: 8px;
+  background-color: #ffffff;
 }
 
 .peoject-title-container {
@@ -335,7 +331,6 @@ ul {
   width: 80%;
   height: 57px;
   margin-top: 16px;
-  background-color: aqua;
 }
 
 .project-title {
@@ -461,7 +456,6 @@ ul {
   .card-work-row-1 {
     width: 98.63%;
     height: 964px;
-    background-color: rgb(255, 127, 240);
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 2%;
@@ -476,7 +470,6 @@ ul {
   .card-work-row-1 {
     width: 98.63%;
     height: 1446px;
-    background-color: rgb(255, 127, 240);
     display: grid;
     grid-template-columns: 100%;
     align-items: center;
@@ -488,7 +481,6 @@ ul {
   .card-work-row-2 {
     width: 98.63%;
     height: 964px;
-    background-color: rgb(255, 127, 240);
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
@@ -501,7 +493,6 @@ ul {
   .card-work-row-2 {
     width: 98.63%;
     height: 1446px;
-    background-color: rgb(255, 127, 240);
     display: grid;
     grid-template-columns: 100%;
     column-gap: 2%;
@@ -518,7 +509,6 @@ ul {
   flex-direction: column;
   align-items: center;
   margin-top: -66px;
-  border: 1px solid orangered;
 }
 
 @media screen and (max-width: 1200px) {
@@ -540,12 +530,10 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: chartreuse;
 }
 
 @media screen and (max-width: 800px) {
   .about-me {
-    background-color: red;
     margin-top: -40px;
     margin-bottom: 50px;
     height: 350px;
@@ -563,7 +551,6 @@ ul {
   height: 48px;
   display: flex;
   justify-content: center;
-  background-color: cyan;
 }
 
 #about-me-text {
@@ -599,13 +586,6 @@ ul {
   margin-top: 24px;
 }
 
-/* @media screen and (max-width: 800px) {
-  .get-my-resume {
-    width: 35%;
-    height: 50px;
-  }
-} */
-
 #get-my-resume-text {
   align-self: center;
   width: 135px;
@@ -632,7 +612,6 @@ ul {
   grid-template-columns: 32.33% 32.33% 32.33%;
   column-gap: 2%;
   justify-content: center;
-  background-color: coral;
 }
 
 .card-size {
@@ -647,7 +626,7 @@ ul {
 
 .card-size:hover {
   transition: 500ms;
-  border: 2px solid #5259a4;
+  border: 2px solid #51579a;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -717,7 +696,6 @@ ul {
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
     justify-content: center;
-    background-color: coral;
   }
 }
 
@@ -730,7 +708,6 @@ ul {
     grid-template-columns: 100%;
     grid-gap: 20px;
     justify-content: center;
-    background-color: coral;
   }
 }
 
@@ -1107,7 +1084,6 @@ ul {
   flex-direction: row;
   justify-content: center;
   margin-top: 84px;
-  border: 1px solid green;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1121,12 +1097,11 @@ ul {
   height: 490px;
   display: flex;
   column-gap: 2.05%;
-  background-color: #36b37f;
 }
 
 @media screen and (max-width: 800px) {
   .contact-form {
-    margin-top: 20px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
   }
@@ -1138,7 +1113,6 @@ ul {
   display: flex;
   align-items: center;
   margin-top: 80px;
-  background-color: #c1c7d0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1155,7 +1129,6 @@ ul {
     display: flex;
     text-align: center;
     margin-top: 0;
-    background-color: #c1c7d0;
   }
 }
 
@@ -1163,7 +1136,6 @@ ul {
   font-size: 30px;
   font-weight: 700;
   line-height: 56px;
-  color: #172b4d;
 }
 
 #form {
@@ -1173,7 +1145,6 @@ ul {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  background-color: #9bc060;
 }
 
 @media screen and (max-width: 800px) {
@@ -1185,7 +1156,6 @@ ul {
     flex-direction: column;
     align-items: center;
     row-gap: 24px;
-    background-color: #9bc060;
   }
 }
 
@@ -1247,14 +1217,13 @@ textarea {
 }
 
 #get-in-touch:hover {
-  background-color: #6070ff;
+  background-color: #60ff7d;
   color: #fff;
 }
 
 .bottom-navigation {
   width: 100%;
   height: 72px;
-  background-color: aqua;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1268,6 +1237,6 @@ hr {
 }
 
 button:hover {
-  background-color: #6070ff;
+  background-color: #60ff7d;
   color: #fff;
 }
