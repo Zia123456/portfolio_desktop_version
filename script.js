@@ -262,7 +262,7 @@ clickToPopUp.forEach((seeProject) => {
 
     let actionContainer = document.createElement("div");
     actionContainer.className = "action-container";
-    function myFunction(x) {
+    function displayMobileView(x) {
       if (x.matches) {
         middleContainer.appendChild(technologiesUl);
         middleContainer.appendChild(projectDescription);
@@ -283,7 +283,7 @@ clickToPopUp.forEach((seeProject) => {
     }
 
     var x = window.matchMedia("(max-width: 1200px)");
-    myFunction(x); // Call listener function at run time
-    x.addListener(myFunction); // Attach listener function on state changes
+    displayMobileView(x); // Call listener function at run time
+    x.addListener(displayMobileView); // Attach listener function on state changes
   });
 });
