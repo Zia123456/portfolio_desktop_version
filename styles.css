@@ -298,10 +298,6 @@ ul {
   box-shadow: 0 10px 10px 1px rgba(10, 133, 227, 0.5);
 }
 
-.see-project-text:hover {
-  background-color: #008552;
-}
-
 .grid-item {
   display: flex;
   flex-direction: column;
@@ -431,6 +427,10 @@ ul {
   border: none;
   border-radius: 4px;
   align-self: center;
+}
+
+.see-project-text:hover {
+  background-color: #008552;
 }
 
 #see-project-text {
