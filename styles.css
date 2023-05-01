@@ -458,7 +458,6 @@ ul {
   color: #fff;
 }
 
-
 @media screen and (max-width: 1200px) {
   .card-work-row-1 {
     width: 98.63%;
@@ -509,7 +508,6 @@ ul {
   }
 }
 
-
 .about-me-container {
   width: 100%;
   height: 808px;
@@ -557,8 +555,8 @@ ul {
   width: 68px;
   height: 127px;
   align-self: flex-end;
-  }
-  
+}
+
 .about-me {
   width: 78.56%;
   height: 240px;
@@ -1120,7 +1118,8 @@ ul {
 @media screen and (max-width: 1200px) {
   .contact-form-container {
     margin-top: 400px;
-  margin-top: 0;
+    margin-top: 0;
+  }
 }
 
 .contact-form {
@@ -1136,6 +1135,7 @@ ul {
     display: flex;
     flex-direction: column;
   }
+}
 
 .description {
   width: 70.53%;
@@ -1160,7 +1160,6 @@ ul {
     text-align: center;
     margin-top: 0;
   }
-  margin-top: 0;
 }
 
 .description-text {
@@ -1190,6 +1189,7 @@ ul {
     align-items: center;
     row-gap: 24px;
   }
+}
 
 #fullname {
   width: 100%;
@@ -1981,4 +1981,3 @@ button:hover {
     display: none;
   }
 }
-
