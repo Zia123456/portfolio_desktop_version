@@ -1113,6 +1113,7 @@ ul {
   flex-direction: row;
   justify-content: center;
   margin-top: 84px;
+  background-color: blue;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1127,6 +1128,7 @@ ul {
   height: 490px;
   display: flex;
   column-gap: 2.05%;
+  background-color: bisque;
 }
 
 @media screen and (max-width: 800px) {
@@ -1168,15 +1170,17 @@ ul {
   line-height: 56px;
   line-height: 52px;
   color: #172b4d;
+  background-color: #3665b6;
 }
 
 #form {
   width: 95%;
-  height: 330px;
+  height: 400px;
   margin-top: 0;
   display: flex;
   flex-direction: column;
   row-gap: 24px;
+  background-color: aqua;
 }
 
 @media screen and (max-width: 800px) {
@@ -1203,14 +1207,6 @@ ul {
   width: 100%;
   height: 48px;
   border: 1px solid #d0d9d4;
-  border-radius: 4px;
-  margin-top: 24px;
-}
-
-#textarea {
-  width: 100%;
-  height: 114px;
-  border: 1px solid #60c095;
   border-radius: 4px;
   margin-top: 24px;
 }
