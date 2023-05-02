@@ -59,6 +59,7 @@ body {
 }
 .font-style:hover {
   --_p: 100%;
+  scale: 1.5;
 }
 
 .portfolio {
@@ -196,6 +197,7 @@ a {
 .logos {
   display: flex;
   flex-direction: row;
+  gap: 10px;
   width: 200px;
   height: 40px;
 }
@@ -214,11 +216,18 @@ ul {
 }
 
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  scale: 1.5;
+  margin-top: -10px;
+  border: 1px solid rgb(67, 65, 67);
 }
 
 .action {
@@ -348,6 +357,7 @@ ul {
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
   transition: 100ms;
   box-shadow: 0 10px 10px 1px rgba(10, 133, 227, 0.5);
+  scale: 1.1;
 }
 
 .grid-item {
