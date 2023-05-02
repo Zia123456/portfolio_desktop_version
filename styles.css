@@ -136,6 +136,20 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 3s;
 }
 
 #colored-text {
@@ -156,6 +170,7 @@ a {
   color: #172b4d;
   line-height: 32px;
   align-items: center;
+  opacity: 1;
 }
 
 .supporting-text-p {
