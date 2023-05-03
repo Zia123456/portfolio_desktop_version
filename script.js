@@ -1,10 +1,10 @@
 const projectsInformation = [
   {
     id: 1,
-    name: 'Multi-Post Stories Gain+Glory - 1',
+    name: 'Book My Ride',
     description:
-      "Hello World Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: 'images/Snapshoot Portfolio.png',
+      'The Book My Ride application is a car rental service that enables users to sign up and log in to their accounts to rent a vehicle for a designated duration. Users can browse all available cars and view specific details for each vehicle. Additionally, the application lets users access their booking history and view all previous reservations made by them.',
+    featuredImage: 'images/book-my-ride-home.PNG',
     featuredImageMobileView: 'images/Snapshoot Portfolio mobile.png',
     technologies: [
       'Codekit',
@@ -14,8 +14,8 @@ const projectsInformation = [
       'Terminal',
       'Codepen',
     ],
-    liveVersionLink: '#liveversionlink-1',
-    sourceLink: '#sourcelink-1',
+    liveVersionLink: 'https://rentyourcar.onrender.com/',
+    sourceLink: 'https://github.com/Zia123456/book-my-ride-front-end.git',
   },
   {
     id: 2,

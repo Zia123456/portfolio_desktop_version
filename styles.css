@@ -360,6 +360,17 @@ ul {
   scale: 1.1;
 }
 
+.card-1-image {
+  height: 252px;
+}
+
+.image-size {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 8px;
+}
+
 .grid-item {
   display: flex;
   flex-direction: column;
