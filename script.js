@@ -152,8 +152,7 @@ clickToPopUp.forEach((seeProject) => {
 
     // js to create div for mobile view and medium screen for img inside popupDiv
     const backgroundImageDivMobileView = document.createElement('div');
-    backgroundImageDivMobileView.className =
-      'background-img-container-mobile-view';
+    backgroundImageDivMobileView.className = 'background-img-container-mobile-view';
 
     // js to create img tag for mobile view and medium screen sizes
     const backgroundImageMobileView = document.createElement('img');
@@ -338,8 +337,7 @@ userMessage.addEventListener('keyup', storeData);
 const savedUserData = localStorage.getItem('userData');
 document.getElementById('fullname').value = JSON.parse(savedUserData).nameInput;
 document.getElementById('email').value = JSON.parse(savedUserData).emailInput;
-document.getElementById('textarea-size').value =
-  JSON.parse(savedUserData).messageInput;
+document.getElementById('textarea-size').value = JSON.parse(savedUserData).messageInput;
 
 // js for typing effect
 const primaryText = document.querySelector('.primary-text');

@@ -1,3 +1,5 @@
+/* stylelint-disable indentation */
+/* stylelint-disable declaration-colon-newline-after */
 @import url('https://rsms.me/inter/inter.css');
 
 html {
@@ -73,7 +75,7 @@ body {
       calc(100% - var(--_p, 0%)) / 200% 100%,
     linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
   -webkit-background-clip: text, padding-box;
-  background-clip: text, padding-box;
+  -moz-background-clip: text, padding-box;
   transition: 0.3s;
 }
 
