@@ -23,7 +23,6 @@ body {
   background-image: url(images/Header-llustration-desktop.png);
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: 100% 100%; */
   background-size: 0%;
   animation-name: resize;
   animation-duration: 2s;
@@ -71,6 +70,7 @@ body {
   background-clip: text, padding-box;
   transition: 0.3s;
 }
+
 .font-style:hover {
   --_p: 100%;
   scale: 1.5;
@@ -323,18 +323,6 @@ ul {
   align-items: center;
 }
 
-/* @media screen and (max-width: 1200px) {
-  .my-recent-work-card-container {
-    height: 2488px;
-  }
-} */
-
-/* @media screen and (max-width: 800px) {
-  .my-recent-work-card-container {
-    height: 4976px;
-  }
-} */
-
 .my-recent-work-text-container {
   width: 447px;
   height: 48px;
@@ -411,7 +399,6 @@ ul {
 .image-size {
   width: 100%;
   height: 100%;
-  /* object-fit: contain; */
   border-radius: 8px;
 }
 
@@ -563,56 +550,6 @@ ul {
   color: #fff;
 }
 
-/* @media screen and (max-width: 1200px) {
-  .card-work-row-1 {
-    width: 98.63%;
-    height: 964px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap: 2%;
-    grid-gap: 20px;
-    margin-left: 2%;
-    align-items: center;
-    justify-content: right;
-  }
-} */
-
-/* @media screen and (max-width: 800px) {
-  .card-work-row-1 {
-    width: 98.63%;
-    height: 1446px;
-    display: grid;
-    grid-template-columns: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-} */
-
-/* @media screen and (max-width: 1200px) {
-  .card-work-row-2 {
-    width: 98.63%;
-    height: 964px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 20px;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .card-work-row-2 {
-    width: 98.63%;
-    height: 1446px;
-    display: grid;
-    grid-template-columns: 100%;
-    column-gap: 2%;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-  }
-} */
-
 .about-me-container {
   width: 100%;
   height: 808px;
@@ -647,14 +584,6 @@ ul {
   flex-direction: column;
   align-items: center;
 }
-
-/* @media screen and (max-width: 800px) {
-  .about-me {
-    margin-top: -40px;
-    margin-bottom: 50px;
-    height: 350px;
-  }
-} */
 
 .mask-group {
   width: 68px;
@@ -814,31 +743,6 @@ ul {
   margin-top: -1px;
   color: #36b37e;
 }
-
-/* @media screen and (max-width: 1200px) {
-  .card-container {
-    width: 81.32%;
-    height: 720px;
-    margin-top: 300px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 20px;
-    justify-content: center;
-    background-color: #daede6;
-  }
-} */
-
-/* @media screen and (max-width: 800px) {
-  .card-container {
-    width: 81.32%;
-    height: 1080px;
-    margin-top: 58px;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-gap: 20px;
-    justify-content: center;
-  }
-} */
 
 .bootstrap-1 {
   width: 84px;
@@ -1222,27 +1126,12 @@ ul {
   margin-top: 84px;
 }
 
-/* @media screen and (max-width: 1200px) {
-  .contact-form-container {
-    margin-top: 400px;
-    margin-top: 0;
-  }
-} */
-
 .contact-form {
   width: 81.32%;
   height: 490px;
   display: flex;
   column-gap: 2.05%;
 }
-
-/* @media screen and (max-width: 800px) {
-  .contact-form {
-    margin-top: 200px;
-    display: flex;
-    flex-direction: column;
-  }
-} */
 
 .description {
   width: 70.53%;
@@ -1251,23 +1140,6 @@ ul {
   align-items: center;
   margin-top: 80px;
 }
-
-/* @media screen and (max-width: 1200px) {
-  .description {
-    margin-top: 0;
-    height: 100%;
-  }
-} */
-
-/* @media screen and (max-width: 800px) {
-  .description {
-    width: 100%;
-    height: 256px;
-    display: flex;
-    text-align: center;
-    margin-top: 0;
-  }
-} */
 
 .description-text {
   font-size: 30px;
@@ -1285,18 +1157,6 @@ ul {
   flex-direction: column;
   row-gap: 24px;
 }
-
-/* @media screen and (max-width: 800px) {
-  #form {
-    width: 100%;
-    height: 330px;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 24px;
-  }
-} */
 
 #fullname {
   width: 100%;
