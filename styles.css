@@ -64,8 +64,8 @@ body {
   line-height: 20px;
   color: #344563;
 
-  --s: 0.1em; /* the thickness of the line */
-  --c: #033d51; /* the color */
+  --s: 0.1em;
+  --c: #033d51;
 
   color: #0000;
   padding-bottom: var(--s);
