@@ -94,7 +94,7 @@ const projectsInformation = [
     id: 6,
     name: 'Global Developers',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      "Global Developers is a modern and visually appealing online course web app that provides a comprehensive learning experience for aspiring developers. Developed using JavaScript, Webpack, HTML, and CSS, this user-friendly platform offers a range of courses on programming languages and tools, including JavaScript, HTML, and CSS. Each course features interactive exercises, quizzes, and real-world projects that help learners build practical skills. Whether you're a beginner or an experienced developer, Global Developers is the ideal platform to enhance your skills and pursue a career in software development.",
     featuredImage: 'images/g-developers.PNG',
     featuredImageMobileView: 'images/g-developers.PNG',
     technologies: [
@@ -105,8 +105,8 @@ const projectsInformation = [
       'Terminal',
       'Codepen',
     ],
-    liveVersionLink: '#liveversionlink-6',
-    sourceLink: '#sourcelink-6',
+    liveVersionLink: 'https://zia123456.github.io/global_developers/index.html',
+    sourceLink: 'https://github.com/Zia123456/global_developers.git',
   },
 ];
 //js for click event to cause popup apears
@@ -343,6 +343,9 @@ document.getElementById('textarea-size').value =
 const primaryText = document.querySelector('.primary-text');
 const supportingText = document.querySelector('.supporting-text');
 const socialMediaContainer = document.querySelector('.social-media-container');
+const aboutMeSupportingText = document.querySelector(
+  '.about-me-supporting-text',
+);
 
 document.addEventListener('DOMContentLoaded', () => {
   primaryText.classList.add('fade-in'); // Add the fade-in class to trigger the animation

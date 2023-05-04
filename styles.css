@@ -164,7 +164,7 @@ a {
 }
 
 .fade-in {
-  animation: fadeIn 3s;
+  animation: fadeIn 5s;
 }
 
 #colored-text {
@@ -201,7 +201,7 @@ a {
 .social-media-container {
   width: 100%;
   height: 40px;
-  margin-top: 24px;
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -261,6 +261,36 @@ ul {
   border: 1px solid #dfe1e6;
   border-radius: 50%;
   margin-top: 50px;
+  background-color: #029d62;
+}
+
+.shake {
+  animation-name: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes shake {
+  0% {
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateY(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .icon-container {
@@ -293,17 +323,17 @@ ul {
   align-items: center;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .my-recent-work-card-container {
     height: 2488px;
   }
-}
+} */
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .my-recent-work-card-container {
     height: 4976px;
   }
-}
+} */
 
 .my-recent-work-text-container {
   width: 447px;
@@ -474,6 +504,10 @@ ul {
   color: #3a4a42;
 }
 
+.small-box:hover {
+  scale: 1.1;
+}
+
 #ruby-on-rail-text {
   width: 79px;
   height: 16px;
@@ -529,7 +563,7 @@ ul {
   color: #fff;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .card-work-row-1 {
     width: 98.63%;
     height: 964px;
@@ -541,9 +575,9 @@ ul {
     align-items: center;
     justify-content: right;
   }
-}
+} */
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .card-work-row-1 {
     width: 98.63%;
     height: 1446px;
@@ -552,9 +586,9 @@ ul {
     align-items: center;
     justify-content: center;
   }
-}
+} */
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .card-work-row-2 {
     width: 98.63%;
     height: 964px;
@@ -577,7 +611,7 @@ ul {
     justify-content: center;
     margin-top: 15px;
   }
-}
+} */
 
 .about-me-container {
   width: 100%;
@@ -614,13 +648,13 @@ ul {
   align-items: center;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .about-me {
     margin-top: -40px;
     margin-bottom: 50px;
     height: 350px;
   }
-}
+} */
 
 .mask-group {
   width: 68px;
@@ -681,7 +715,7 @@ ul {
   background-color: #36b37f;
   display: flex;
   justify-content: center;
-  margin-top: 24px;
+  margin-top: 90px;
 }
 
 #get-my-resume-text {
@@ -698,7 +732,7 @@ ul {
 .card-container {
   width: 100%;
   height: 360px;
-  margin-top: 58px;
+  margin-top: 150px;
   display: grid;
   grid-template-columns: 32.33% 32.33% 32.33%;
   column-gap: 2%;
@@ -721,6 +755,7 @@ ul {
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
   transition: 100ms;
   box-shadow: 0 10px 10px 1px rgba(10, 133, 227, 0.5);
+  scale: 1.1;
 }
 
 .frameworks-icon {
@@ -780,19 +815,20 @@ ul {
   color: #36b37e;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .card-container {
     width: 81.32%;
     height: 720px;
-    margin-top: 58px;
+    margin-top: 300px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
     justify-content: center;
+    background-color: #daede6;
   }
-}
+} */
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .card-container {
     width: 81.32%;
     height: 1080px;
@@ -802,7 +838,7 @@ ul {
     grid-gap: 20px;
     justify-content: center;
   }
-}
+} */
 
 .bootstrap-1 {
   width: 84px;
@@ -1184,31 +1220,29 @@ ul {
   flex-direction: row;
   justify-content: center;
   margin-top: 84px;
-  background-color: blue;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .contact-form-container {
     margin-top: 400px;
     margin-top: 0;
   }
-}
+} */
 
 .contact-form {
   width: 81.32%;
   height: 490px;
   display: flex;
   column-gap: 2.05%;
-  background-color: bisque;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .contact-form {
     margin-top: 200px;
     display: flex;
     flex-direction: column;
   }
-}
+} */
 
 .description {
   width: 70.53%;
@@ -1218,14 +1252,14 @@ ul {
   margin-top: 80px;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .description {
     margin-top: 0;
     height: 100%;
   }
-}
+} */
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .description {
     width: 100%;
     height: 256px;
@@ -1233,7 +1267,7 @@ ul {
     text-align: center;
     margin-top: 0;
   }
-}
+} */
 
 .description-text {
   font-size: 30px;
@@ -1241,7 +1275,6 @@ ul {
   line-height: 56px;
   line-height: 52px;
   color: #172b4d;
-  background-color: #3665b6;
 }
 
 #form {
@@ -1251,10 +1284,9 @@ ul {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  background-color: aqua;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   #form {
     width: 100%;
     height: 330px;
@@ -1264,7 +1296,7 @@ ul {
     align-items: center;
     row-gap: 24px;
   }
-}
+} */
 
 #fullname {
   width: 100%;
@@ -1624,6 +1656,9 @@ button:hover {
 }
 
 @media screen and (max-width: 1200px) {
+  .social-media-container {
+    margin-top: 140px;
+  }
   .my-recent-work-card-container {
     height: 2198px;
   }
@@ -1681,13 +1716,13 @@ button:hover {
   }
 
   .get-my-resume {
-    margin-top: 70px;
+    margin-top: 180px;
   }
 
   .card-container {
     width: 81.32%;
     height: 730px;
-    margin-top: 52px;
+    margin-top: 200px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
@@ -1702,7 +1737,7 @@ button:hover {
   }
 
   .contact-form-container {
-    margin-top: 0;
+    margin-top: 150px;
   }
 
   .description {
@@ -1910,6 +1945,10 @@ button:hover {
     margin-top: -180px;
   }
 
+  .social-media-container {
+    margin-top: 0;
+  }
+
   .action {
     height: 50px;
     display: flex;
@@ -1985,7 +2024,7 @@ button:hover {
   }
 
   .get-my-resume {
-    margin-top: 40px;
+    margin-top: 200px;
   }
 
   .mask-group {
@@ -2032,7 +2071,7 @@ button:hover {
   }
 
   .contact-form {
-    margin-top: 20px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
   }
@@ -2047,5 +2086,45 @@ button:hover {
 
   .bottom-img {
     display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .social-media-container {
+    margin-top: 100px;
+  }
+
+  .header-text {
+    height: 1200px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .social-media-container {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  .social-media-container {
+    margin-top: 250px;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  .social-media-container {
+    display: none;
+  }
+
+  .action {
+    margin-top: 280px;
+  }
+
+  .get-my-resume {
+    margin-top: 280px;
+  }
+
+  .contact-form-container {
+    margin-top: 1300px;
   }
 }
