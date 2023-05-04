@@ -63,6 +63,7 @@ body {
   font-weight: 600px;
   line-height: 20px;
   color: #344563;
+
   --s: 0.1em; /* the thickness of the line */
   --c: #033d51; /* the color */
 
@@ -78,6 +79,7 @@ body {
 
 .font-style:hover {
   --_p: 100%;
+
   scale: 1.5;
 }
 
@@ -388,8 +390,6 @@ ul {
 .size:hover {
   transition: 500ms;
   border: 2px solid #3665b6;
-  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
-  transition: 100ms;
   box-shadow: 0 10px 10px 1px rgba(10, 133, 227, 0.5);
   scale: 1.1;
 }
@@ -1211,7 +1211,6 @@ input[type='email'] {
 }
 
 #get-in-touch:hover {
-  background-color: #60ff7d;
   color: #fff;
   background-color: #008552;
 }
@@ -1508,6 +1507,7 @@ button:hover {
   .social-media-container {
     margin-top: 140px;
   }
+
   .my-recent-work-card-container {
     height: 2198px;
   }
