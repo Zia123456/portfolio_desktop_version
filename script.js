@@ -1,3 +1,5 @@
+/* eslint-disable no-restricted-globals */
+/* eslint-disable max-len */
 const projectsInformation = [
   {
     id: 1,
@@ -109,14 +111,14 @@ const projectsInformation = [
     sourceLink: 'https://github.com/Zia123456/global_developers.git',
   },
 ];
-//js for click event to cause popup apears
+// js for click event to cause popup apears
 const clickToPopUp = document.querySelectorAll('.see-project');
 
 clickToPopUp.forEach((seeProject) => {
-  seeProject.addEventListener('click', function displayPopup() {
-    let nameAttributeValue = seeProject.getAttribute('name');
-    let result = projectsInformation.find(
-      (item) => item.id == nameAttributeValue,
+  seeProject.addEventListener('click', () => {
+    const nameAttributeValue = seeProject.getAttribute('name');
+    const result = projectsInformation.find(
+      (item) => item.id === nameAttributeValue,
     );
 
     // console.log(result.name);
@@ -125,11 +127,11 @@ clickToPopUp.forEach((seeProject) => {
     popupDiv.id = 'popup-container';
 
     // js to create div for close btn inside popupDiv
-    let closeBtnDiv = document.createElement('div');
+    const closeBtnDiv = document.createElement('div');
     closeBtnDiv.className = 'close-btn-box';
 
     // js to create img tag inside closeBtnDiv
-    let imageTag = document.createElement('img');
+    const imageTag = document.createElement('img');
     imageTag.src = 'images/Icon.png';
     imageTag.alt = 'close button';
     imageTag.className = 'close-btn';
@@ -137,11 +139,11 @@ clickToPopUp.forEach((seeProject) => {
     popupDiv.appendChild(closeBtnDiv);
 
     // js to create div for img inside popupDiv
-    let backgroundImageDiv = document.createElement('div');
+    const backgroundImageDiv = document.createElement('div');
     backgroundImageDiv.className = 'background-img-container';
 
     // js to create img tag for background image
-    let backgroundImage = document.createElement('img');
+    const backgroundImage = document.createElement('img');
     backgroundImage.src = result.featuredImage; // src comes from projectsInformation object
     backgroundImage.alt = 'background image';
     backgroundImage.className = 'background-img';
@@ -149,47 +151,47 @@ clickToPopUp.forEach((seeProject) => {
     popupDiv.appendChild(backgroundImageDiv);
 
     // js to create div for mobile view and medium screen for img inside popupDiv
-    let backgroundImageDivMobileView = document.createElement('div');
+    const backgroundImageDivMobileView = document.createElement('div');
     backgroundImageDivMobileView.className =
       'background-img-container-mobile-view';
 
     // js to create img tag for mobile view and medium screen sizes
-    let backgroundImageMobileView = document.createElement('img');
+    const backgroundImageMobileView = document.createElement('img');
     backgroundImageMobileView.src = result.featuredImageMobileView; // src comes from projectsInformation object
     backgroundImageMobileView.alt = 'background image';
     backgroundImageMobileView.className = 'background-img-mobile-view';
     popupDiv.appendChild(backgroundImageDivMobileView);
 
     // js to create div to contain title and See Live and See Source
-    let middleContainer = document.createElement('div');
+    const middleContainer = document.createElement('div');
     middleContainer.className = 'middle-container';
 
     // js to create div for title
-    let titleDiv = document.createElement('div');
+    const titleDiv = document.createElement('div');
     titleDiv.className = 'title-container';
-    let titleText = document.createElement('h2');
+    const titleText = document.createElement('h2');
     titleText.innerHTML = result.name;
     titleDiv.appendChild(titleText);
     middleContainer.append(titleDiv);
 
     // js to create a tag for See Live inside middleContainer
-    let seeLive = document.createElement('a');
+    const seeLive = document.createElement('a');
     seeLive.href = result.liveVersionLink; // link comes fromprojectsInformation object
     seeLive.className = 'see-live';
 
     // js to create button tag for see live inside a tag
-    let seeLiveButton = document.createElement('button');
+    const seeLiveButton = document.createElement('button');
     seeLiveButton.className = 'see-live-button';
     seeLive.appendChild(seeLiveButton);
 
     // js to create div for see live text and icon inside seeLiveButton
-    let seeLiveText = document.createElement('span');
+    const seeLiveText = document.createElement('span');
     seeLiveText.className = 'see-live-text';
     seeLiveText.innerHTML = 'See Live';
     seeLiveButton.appendChild(seeLiveText);
 
     // js to create img tag inside seeLiveButton
-    let seeLiveIcon = document.createElement('img');
+    const seeLiveIcon = document.createElement('img');
     seeLiveIcon.src = 'images/Icon - Export.png';
     seeLiveIcon.alt = 'Icon';
     seeLiveIcon.className = 'see-live-icon';
@@ -199,22 +201,22 @@ clickToPopUp.forEach((seeProject) => {
     middleContainer.appendChild(seeLive);
 
     // js to create a tag for See Sources inside middleContainer
-    let seeSource = document.createElement('a');
+    const seeSource = document.createElement('a');
     seeSource.href = result.sourceLink; // link comes from projectsInformation object
     seeSource.className = 'see-source';
 
     // js to create button tag for see live inside a tag
-    let seeSourceButton = document.createElement('button');
+    const seeSourceButton = document.createElement('button');
     seeSourceButton.className = 'see-source-button';
 
     // js to create div for see source text and icon inside seeLiveButton
-    let seeSourceText = document.createElement('span');
+    const seeSourceText = document.createElement('span');
     seeSourceText.className = 'see-source-Text';
     seeSourceText.innerHTML = 'See Source';
     seeSourceButton.appendChild(seeSourceText);
 
     // js to create img tag inside seeSourceButton
-    let seeSourceIcon = document.createElement('img');
+    const seeSourceIcon = document.createElement('img');
     seeSourceIcon.src = 'images/Frame.png';
     seeSourceIcon.alt = 'Icon';
     seeSourceIcon.className = 'see-source-icon';
@@ -226,13 +228,13 @@ clickToPopUp.forEach((seeProject) => {
     popupDiv.appendChild(middleContainer);
 
     // js to create ul inside popupDiv
-    let technologiesUl = document.createElement('ul');
+    const technologiesUl = document.createElement('ul');
     technologiesUl.className = 'technologies-container';
 
     // js to create li tag inside technologiesUl
-    let technologies = result.technologies;
+    const { technologies } = result;
     technologies.forEach((item) => {
-      let technology = document.createElement('li');
+      const technology = document.createElement('li');
       technology.className = item;
       technology.innerHTML = item;
       technologiesUl.appendChild(technology);
@@ -241,7 +243,7 @@ clickToPopUp.forEach((seeProject) => {
     popupDiv.appendChild(technologiesUl);
 
     // js to create div for project description inside popupDiv
-    let projectDescription = document.createElement('div');
+    const projectDescription = document.createElement('div');
     projectDescription.className = 'projectDescription';
     projectDescription.innerHTML = result.description;
     popupDiv.appendChild(projectDescription);
@@ -256,12 +258,12 @@ clickToPopUp.forEach((seeProject) => {
     const clickedCloseButton = document.querySelector('.close-btn-box');
     const popupContainer = document.querySelector('.popup-container');
 
-    clickedCloseButton.addEventListener('click', function hidePopup() {
+    clickedCloseButton.addEventListener('click', () => {
       popupContainer.classList.add('hide-popup');
       location.reload();
     });
 
-    let actionContainer = document.createElement('div');
+    const actionContainer = document.createElement('div');
     actionContainer.className = 'action-container';
     function myFunction(x) {
       if (x.matches) {
@@ -283,7 +285,7 @@ clickToPopUp.forEach((seeProject) => {
       }
     }
 
-    var x = window.matchMedia('(max-width: 1200px)');
+    const x = window.matchMedia('(max-width: 1200px)');
     myFunction(x); // Call listener function at run time
     x.addListener(myFunction); // Attach listener function on state changes
   });
@@ -343,9 +345,6 @@ document.getElementById('textarea-size').value =
 const primaryText = document.querySelector('.primary-text');
 const supportingText = document.querySelector('.supporting-text');
 const socialMediaContainer = document.querySelector('.social-media-container');
-const aboutMeSupportingText = document.querySelector(
-  '.about-me-supporting-text',
-);
 
 document.addEventListener('DOMContentLoaded', () => {
   primaryText.classList.add('fade-in'); // Add the fade-in class to trigger the animation
