@@ -5,7 +5,7 @@ const projectsInformation = [
     description:
       'The Book My Ride application is a car rental service that enables users to sign up and log in to their accounts to rent a vehicle for a designated duration. Users can browse all available cars and view specific details for each vehicle. Additionally, the application lets users access their booking history and view all previous reservations made by them.',
     featuredImage: 'images/book-my-ride-home.PNG',
-    featuredImageMobileView: 'images/Snapshoot Portfolio mobile.png',
+    featuredImageMobileView: 'images/book-my-ride-home.PNG',
     technologies: [
       'Codekit',
       'GitHub',
@@ -21,9 +21,9 @@ const projectsInformation = [
     id: 2,
     name: 'Budget App',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      "The Budget App is a personal finance application that helps users manage their expenses. Users can create an account, sign in, and access their financial information securely. The categories page displays different expense categories with icons, creation dates, and total costs. Users can add a new group by clicking on the Add New Group link. The Budget App is perfect for anyone looking to keep track of their expenses and stay on top of their finances, whether it's managing monthly expenses or keeping track of bills. It's an essential tool for financial management that's easy to use and helps users stay organized.",
     featuredImage: 'images/Budget_App.PNG',
-    featuredImageMobileView: 'images/Snapshoot Portfolio mobile.png',
+    featuredImageMobileView: 'images/Budget_App.PNG',
     technologies: [
       'Codekit',
       'GitHub',
@@ -37,11 +37,11 @@ const projectsInformation = [
   },
   {
     id: 3,
-    name: 'Multi-Post Stories Gain+Glory - 3',
+    name: 'My Movies',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: 'images/Snapshoot Portfolio.png',
-    featuredImageMobileView: 'images/Snapshoot Portfolio mobile.png',
+      'My Movies is a web app, Displays a list of movies and users can check the details of movies by clicking the view details button also users can search for a specific movie by writing the title of a movie in the search box.',
+    featuredImage: 'images/my-movies.PNG',
+    featuredImageMobileView: 'images/my-movies.PNG',
     technologies: [
       'Codekit',
       'GitHub',
@@ -50,16 +50,16 @@ const projectsInformation = [
       'Terminal',
       'Codepen',
     ],
-    liveVersionLink: '#liveversionlink-3',
-    sourceLink: '#sourcelink-3',
+    liveVersionLink: 'https://magical-cendol-0725d4.netlify.app/',
+    sourceLink: 'https://github.com/Zia123456/react-redux-capstone.git',
   },
   {
     id: 4,
-    name: 'Multi-Post Stories Gain+Glory - 4',
+    name: 'Space Traveler Hub',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: 'images/Snapshoot Portfolio.png',
-    featuredImageMobileView: 'images/Snapshoot Portfolio mobile.png',
+      'A React-Redux site created for a Microverse Group Project alongside my teammate Microverse student, Vanessa, uses data from the SpaceX API to display lists of rockets and missions and allows a user to book rockets and join missions.',
+    featuredImage: 'images/traveler-hub.PNG',
+    featuredImageMobileView: 'images/traveler-hub.PNG',
     technologies: [
       'Codekit',
       'GitHub',
@@ -68,16 +68,16 @@ const projectsInformation = [
       'Terminal',
       'Codepen',
     ],
-    liveVersionLink: '#liveversionlink-4',
-    sourceLink: '#sourcelink-4',
+    liveVersionLink: 'https://tiny-dolphin-850110.netlify.app/',
+    sourceLink: 'https://github.com/Zia123456/space-travelers.git',
   },
   {
     id: 5,
-    name: 'Multi-Post Stories Gain+Glory - 5',
+    name: 'Royal Meal',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: 'images/Snapshoot Portfolio.png',
-    featuredImageMobileView: 'images/Snapshoot Portfolio mobile.png',
+      "The Royal Meals website is a dynamic Single Page Application (SPA) that showcases a variety of delectable foods and enables users to provide their feedback through likes and comments. This engaging webpage was expertly crafted using a powerful blend of HTML, CSS, and Javascript technologies, seamlessly integrated with the Webpack framework. Additionally, I ensured the high quality of the website's functionality through rigorous Unit Testing using Jest, further attesting to its SPA superiority.",
+    featuredImage: 'images/royal-meal.PNG',
+    featuredImageMobileView: 'images/royal-meal.PNG',
     technologies: [
       'Codekit',
       'GitHub',
@@ -86,16 +86,17 @@ const projectsInformation = [
       'Terminal',
       'Codepen',
     ],
-    liveVersionLink: '#liveversionlink-5',
-    sourceLink: '#sourcelink-5',
+    liveVersionLink:
+      'https://simongideon.github.io/javascript-group-capstone-project/dist/',
+    sourceLink: 'https://github.com/Zia123456/capstone-javascript.git',
   },
   {
     id: 6,
-    name: 'Multi-Post Stories Gain+Glory - 6',
+    name: 'Global Developers',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: 'images/Snapshoot Portfolio.png',
-    featuredImageMobileView: 'images/Snapshoot Portfolio mobile.png',
+    featuredImage: 'images/g-developers.PNG',
+    featuredImageMobileView: 'images/g-developers.PNG',
     technologies: [
       'Codekit',
       'GitHub',
@@ -340,6 +341,8 @@ document.getElementById('textarea-size').value =
 
 // js for typing effect
 const primaryText = document.querySelector('.primary-text');
+const supportingText = document.querySelector('.supporting-text');
+const socialMediaContainer = document.querySelector('.social-media-container');
 
 document.addEventListener('DOMContentLoaded', () => {
   primaryText.classList.add('fade-in'); // Add the fade-in class to trigger the animation
@@ -354,10 +357,9 @@ window.addEventListener('scroll', () => {
   }
 });
 
-const supportingText = document.querySelector('.supporting-text');
-
 document.addEventListener('DOMContentLoaded', () => {
   supportingText.classList.add('fade-in'); // Add the fade-in class to trigger the animation
+  socialMediaContainer.classList.add('fade-in');
 });
 
 window.addEventListener('scroll', () => {
