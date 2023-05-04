@@ -34,6 +34,7 @@ body {
   from {
     background-size: 0%;
   }
+
   to {
     background-size: 100%;
   }
@@ -58,6 +59,10 @@ body {
 }
 
 .font-style {
+  font-size: 15px;
+  font-weight: 600px;
+  line-height: 20px;
+  color: #344563;
   --s: 0.1em; /* the thickness of the line */
   --c: #033d51; /* the color */
 
@@ -116,13 +121,6 @@ body {
   height: 20px;
 }
 
-.font-style {
-  font-size: 15px;
-  font-weight: 600px;
-  line-height: 20px;
-  color: #344563;
-}
-
 a {
   text-decoration: none;
   color: #344563;
@@ -158,6 +156,7 @@ a {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -275,6 +274,7 @@ ul {
   0% {
     transform: translateY(0);
   }
+
   10%,
   30%,
   50%,
@@ -282,12 +282,14 @@ ul {
   90% {
     transform: translateY(-10px);
   }
+
   20%,
   40%,
   60%,
   80% {
     transform: translateY(10px);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -585,12 +587,6 @@ ul {
   align-items: center;
 }
 
-.mask-group {
-  width: 68px;
-  height: 127px;
-  align-self: flex-end;
-}
-
 .about-me {
   width: 78.56%;
   height: 240px;
@@ -681,8 +677,6 @@ ul {
 .card-size:hover {
   transition: 500ms;
   border: 2px solid #51579a;
-  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
-  transition: 100ms;
   box-shadow: 0 10px 10px 1px rgba(10, 133, 227, 0.5);
   scale: 1.1;
 }
@@ -1266,11 +1260,6 @@ hr {
   width: 100%;
   height: 1px;
   background-color: #dfe1e6;
-}
-
-button:hover {
-  background-color: #60ff7d;
-  color: #fff;
 }
 
 .popup-container {
