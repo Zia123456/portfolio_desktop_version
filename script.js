@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 /* eslint-disable no-restricted-globals */
 /* eslint-disable max-len */
 const projectsInformation = [
@@ -118,10 +119,10 @@ clickToPopUp.forEach((seeProject) => {
   seeProject.addEventListener('click', () => {
     const nameAttributeValue = seeProject.getAttribute('name');
     const result = projectsInformation.find(
-      (item) => item.id === nameAttributeValue,
+      (item) => item.id == nameAttributeValue,
     );
 
-    // console.log(result.name);
+    // console.log(result);
     const popupDiv = document.createElement('div');
     popupDiv.className = 'popup-container';
     popupDiv.id = 'popup-container';
@@ -152,7 +153,7 @@ clickToPopUp.forEach((seeProject) => {
 
     // js to create div for mobile view and medium screen for img inside popupDiv
     const backgroundImageDivMobileView = document.createElement('div');
-    backgroundImageDivMobileView.className = 'background-img-container-mobile-view';
+    backgroundImageDivMobileView.className = 'bg-img-container-mobile-view';
 
     // js to create img tag for mobile view and medium screen sizes
     const backgroundImageMobileView = document.createElement('img');
@@ -337,7 +338,7 @@ userMessage.addEventListener('keyup', storeData);
 const savedUserData = localStorage.getItem('userData');
 document.getElementById('fullname').value = JSON.parse(savedUserData).nameInput;
 document.getElementById('email').value = JSON.parse(savedUserData).emailInput;
-document.getElementById('textarea-size').value = JSON.parse(savedUserData).messageInput;
+document.querySelector('.req').value = JSON.parse(savedUserData).messageInput;
 
 // js for typing effect
 const primaryText = document.querySelector('.primary-text');
