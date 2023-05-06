@@ -52,10 +52,10 @@ body {
   justify-content: center;
   align-items: center;
   transition: background-color 1s ease-out;
-  /* background-color: #029d62; */
+  z-index: 999;
 }
 
-.navigation.active {
+.active {
   background-color: rgb(91, 215, 132);
   border-radius: 5px;
   z-index: 999;
