@@ -79,7 +79,7 @@ const projectsInformation = [
     name: 'Royal Meal',
     description:
       "The Royal Meals website is a dynamic Single Page Application (SPA) that showcases a variety of delectable foods and enables users to provide their feedback through likes and comments. This engaging webpage was expertly crafted using a powerful blend of HTML, CSS, and Javascript technologies, seamlessly integrated with the Webpack framework. Additionally, I ensured the high quality of the website's functionality through rigorous Unit Testing using Jest, further attesting to its SPA superiority.",
-    featuredImage: 'images/royal-meal.PNG',
+    featuredImage: 'images/Royal.PNG',
     featuredImageMobileView: 'images/royal-meal.PNG',
     technologies: [
       'Codekit',
@@ -98,7 +98,7 @@ const projectsInformation = [
     name: 'Global Developers',
     description:
       "Global Developers is a modern and visually appealing online course web app that provides a comprehensive learning experience for aspiring developers. Developed using JavaScript, Webpack, HTML, and CSS, this user-friendly platform offers a range of courses on programming languages and tools, including JavaScript, HTML, and CSS. Each course features interactive exercises, quizzes, and real-world projects that help learners build practical skills. Whether you're a beginner or an experienced developer, Global Developers is the ideal platform to enhance your skills and pursue a career in software development.",
-    featuredImage: 'images/g-developers.PNG',
+    featuredImage: 'images/g-dev.PNG',
     featuredImageMobileView: 'images/g-developers.PNG',
     technologies: [
       'Codekit',

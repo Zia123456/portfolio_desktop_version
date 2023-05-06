@@ -399,6 +399,7 @@ ul {
 
 .card-1-image {
   height: 252px;
+  object-fit: fill;
 }
 
 .image-size {
@@ -771,6 +772,7 @@ ul {
   height: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #fff;
   border: none;
   border-radius: 8px;
@@ -790,29 +792,23 @@ ul {
   align-self: center;
 }
 
-#rspec-1 {
-  width: 39px;
-  height: 16px;
-  align-self: center;
-}
-
 .framewoks-name-1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 172px;
   height: 80px;
   margin-top: -11px;
-  margin-left: -25px;
+  margin-left: -30px;
   column-gap: 8px;
   color: #36b37e;
 }
 
 .capybara {
-  width: 83px;
+  width: 63px;
   height: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #fff;
   border: none;
   border-radius: 8px;
@@ -825,23 +821,12 @@ ul {
   height: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #fff;
   border: none;
   border-radius: 8px;
   font-size: 12px;
   font-weight: 600;
-}
-
-#capybara-text {
-  width: 59px;
-  height: 16px;
-  align-self: center;
-}
-
-#selenium-text {
-  width: 57px;
-  height: 16px;
-  align-self: center;
 }
 
 .languages-container {
@@ -1004,6 +989,7 @@ ul {
   height: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-left: -35px;
   background-color: #fff;
   border: none;
@@ -1031,6 +1017,7 @@ ul {
   height: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #fff;
   border: none;
   border-radius: 8px;
@@ -1040,22 +1027,17 @@ ul {
 }
 
 .gitlab {
-  width: 61px;
+  width: 30px;
   height: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #fff;
   border: none;
   border-radius: 8px;
   font-size: 12px;
   font-weight: 600;
   color: #36b37e;
-}
-
-#codekit {
-  width: 48px;
-  height: 16px;
-  align-self: center;
 }
 
 #github-skill {
@@ -1064,46 +1046,29 @@ ul {
   align-self: center;
 }
 
-#codepen {
-  width: 55px;
-  height: 16px;
-  align-self: center;
-}
-
-#gitlab {
-  width: 37px;
-  height: 16px;
-  align-self: center;
-}
-
 .skills-1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 172px;
+  align-items: center;
   height: 80px;
   margin-top: -11px;
-  margin-left: -25px;
+  margin-left: -55px;
   column-gap: 8px;
 }
 
 .terminal {
-  width: 83px;
+  width: 80px;
   height: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #fff;
   border: none;
   border-radius: 8px;
   font-size: 12px;
   font-weight: 600;
   color: #36b37e;
-}
-
-#terminal {
-  width: 53px;
-  height: 16px;
-  align-self: center;
 }
 
 .fram {
