@@ -24,9 +24,9 @@ const projectsInformation = [
     id: 2,
     name: 'Budget App',
     description:
-      "The Budget App is a personal finance application that helps users manage their expenses. Users can create an account, sign in, and access their financial information securely. The categories page displays different expense categories with icons, creation dates, and total costs. Users can add a new group by clicking on the Add New Group link. The Budget App is perfect for anyone looking to keep track of their expenses and stay on top of their finances, whether it's managing monthly expenses or keeping track of bills. It's an essential tool for financial management that's easy to use and helps users stay organized.",
-    featuredImage: 'images/Budget_App.PNG',
-    featuredImageMobileView: 'images/Budget_App.PNG',
+      'The Leaderboard website showcases scores from various players, which can be submitted by users. The data is securely stored through an external Leaderboard API service. To create this project, I employed JavaScript ES6, HTML5, CSS, and Webpack.',
+    featuredImage: 'images/leader.PNG',
+    featuredImageMobileView: 'images/leader.PNG',
     technologies: [
       'Codekit',
       'GitHub',
@@ -35,8 +35,8 @@ const projectsInformation = [
       'Terminal',
       'Codepen',
     ],
-    liveVersionLink: '#liveversionlink-2',
-    sourceLink: 'https://github.com/Zia123456/Budget-app.git',
+    liveVersionLink: 'https://lovely-kataifi-859c6f.netlify.app/',
+    sourceLink: 'https://github.com/Zia123456/leaderboard.git',
   },
   {
     id: 3,
@@ -80,7 +80,7 @@ const projectsInformation = [
     description:
       "The Royal Meals website is a dynamic Single Page Application (SPA) that showcases a variety of delectable foods and enables users to provide their feedback through likes and comments. This engaging webpage was expertly crafted using a powerful blend of HTML, CSS, and Javascript technologies, seamlessly integrated with the Webpack framework. Additionally, I ensured the high quality of the website's functionality through rigorous Unit Testing using Jest, further attesting to its SPA superiority.",
     featuredImage: 'images/Royal.PNG',
-    featuredImageMobileView: 'images/royal-meal.PNG',
+    featuredImageMobileView: 'images/Royal.PNG',
     technologies: [
       'Codekit',
       'GitHub',
@@ -99,7 +99,7 @@ const projectsInformation = [
     description:
       "Global Developers is a modern and visually appealing online course web app that provides a comprehensive learning experience for aspiring developers. Developed using JavaScript, Webpack, HTML, and CSS, this user-friendly platform offers a range of courses on programming languages and tools, including JavaScript, HTML, and CSS. Each course features interactive exercises, quizzes, and real-world projects that help learners build practical skills. Whether you're a beginner or an experienced developer, Global Developers is the ideal platform to enhance your skills and pursue a career in software development.",
     featuredImage: 'images/g-dev.PNG',
-    featuredImageMobileView: 'images/g-developers.PNG',
+    featuredImageMobileView: 'images/g-dev.PNG',
     technologies: [
       'Codekit',
       'GitHub',
@@ -369,5 +369,15 @@ window.addEventListener('scroll', () => {
     supportingText.classList.add('fade-in'); // Add the fade-in class to trigger the animation
   } else {
     supportingText.classList.remove('fade-in'); // Remove the class if the user has scrolled away from the top
+  }
+});
+
+const navbar = document.querySelector('.navigation');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 100) {
+    navbar.classList.add('active');
+  } else {
+    navbar.classList.remove('active');
   }
 });
