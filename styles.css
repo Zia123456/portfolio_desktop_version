@@ -52,6 +52,7 @@ body {
   justify-content: center;
   align-items: center;
   transition: background-color 1s ease-out;
+  background-color: #029d62;
 }
 
 .navigation.active {
