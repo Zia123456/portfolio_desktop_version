@@ -333,7 +333,6 @@ ul {
 }
 
 .my-recent-work-card-container {
-  width: 81.32%;
   height: 1244px;
   display: flex;
   flex-direction: column;
@@ -365,27 +364,24 @@ ul {
   flex-direction: column;
   row-gap: 30px;
   align-items: center;
-  width: 100%;
   margin-top: 52px;
   margin-top: 48px;
 }
 
 .card-work-row-1 {
-  width: 98.63%;
   height: 482px;
   display: grid;
   grid-template-columns: 32.33% 32.33% 32.33%;
-  column-gap: 2%;
+  column-gap: 4%;
   align-items: center;
   justify-content: center;
 }
 
 .card-work-row-2 {
-  width: 98.63%;
   height: 482px;
   display: grid;
   grid-template-columns: 32.33% 32.33% 32.33%;
-  column-gap: 2.078%;
+  column-gap: 4%;
   align-items: center;
   justify-content: center;
 }
@@ -393,7 +389,7 @@ ul {
 .size {
   display: grid;
   align-content: end;
-  width: 98.63%;
+  width: 375px;
   height: 474px;
   background-color: #ebf0ee;
   border: 1px solid #d0d9d4;
@@ -574,7 +570,7 @@ ul {
   margin-top: -66px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   .about-me-container {
     margin-top: 0;
     height: 1105px;
@@ -653,7 +649,7 @@ ul {
   background-color: #36b37f;
   display: flex;
   justify-content: center;
-  margin-top: 90px;
+  margin-top: 110px;
 }
 
 #get-my-resume-text {
@@ -668,17 +664,17 @@ ul {
 }
 
 .card-container {
-  width: 100%;
   height: 360px;
   margin-top: 150px;
   display: grid;
   grid-template-columns: 32.33% 32.33% 32.33%;
-  column-gap: 2%;
+  column-gap: 4%;
   justify-content: center;
 }
 
 .card-size {
   height: 352px;
+  width: 375px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1480,7 +1476,7 @@ button:hover {
   background-color: #008552;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   .social-media-container {
     margin-top: 140px;
   }
@@ -1494,7 +1490,6 @@ button:hover {
   }
 
   .card-work-row-1 {
-    width: 98.63%;
     height: 980px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -1511,7 +1506,6 @@ button:hover {
   }
 
   .card-work-row-2 {
-    width: 98.63%;
     height: 980px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -1546,7 +1540,6 @@ button:hover {
   }
 
   .card-container {
-    width: 81.32%;
     height: 730px;
     margin-top: 200px;
     display: grid;
@@ -1799,7 +1792,6 @@ button:hover {
   }
 
   .card-work-row-1 {
-    width: 98.63%;
     height: 1470px;
     display: grid;
     grid-template-columns: 100%;
@@ -1812,7 +1804,6 @@ button:hover {
   }
 
   .card-work-row-2 {
-    width: 98.63%;
     height: 1470px;
     display: grid;
     grid-template-columns: 100%;
@@ -1868,7 +1859,6 @@ button:hover {
   }
 
   .card-container {
-    width: 81.32%;
     height: 1130px;
     margin-top: 80px;
     display: grid;
