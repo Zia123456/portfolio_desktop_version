@@ -18,6 +18,100 @@ body {
   margin-top: 0;
 }
 
+.side-nav-main-container {
+  width: 100%;
+  position: fixed;
+  display: none;
+  z-index: 20000;
+}
+
+.top-bar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(4, 153, 88);
+}
+
+.text-welcome {
+  width: 114px;
+  height: 48px;
+  margin-left: 12px;
+  align-content: center;
+}
+
+.welcome {
+  width: 90px;
+  height: 28px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #344563;
+}
+
+.humberger-icon-container {
+  width: 40px;
+  height: 40px;
+  margin-right: 24px;
+}
+
+.side-nav-container-clicked {
+  width: 375px;
+  height: 755px;
+  position: fixed;
+  display: block;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  border: none;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 36px;
+  background-color: rgb(228, 233, 234);
+}
+
+.side-nav-container {
+  display: none;
+}
+
+.close-btn-container {
+  display: flex;
+  justify-content: end;
+}
+
+.close-btn-box-side-nav {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-nav-content {
+  height: 300px;
+}
+
+.contact-side-nav {
+  width: 100px;
+  height: 10px;
+  margin-top: -15px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 726px;
+  align-items: center;
+  background-image: url('images/header-illsutration-mobile@2x.png');
+  background-repeat: no-repeat;
+  background-size: 375px 726px;
+}
+
 .header-container {
   width: 100%;
   height: 1036px;
@@ -52,10 +146,11 @@ body {
   justify-content: center;
   align-items: center;
   transition: background-color 1s ease-out;
+  background-color: rgb(4, 153, 88);
 }
 
 .navigation.active {
-  background-color: rgb(91, 215, 132);
+  background-color: rgb(4, 153, 88);
   border-radius: 5px;
   z-index: 999;
 }
@@ -133,11 +228,6 @@ body {
 .contact-text {
   width: 59px;
   height: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: #344563;
 }
 
 .header-text {
@@ -333,7 +423,6 @@ ul {
 }
 
 .my-recent-work-card-container {
-  width: 81.32%;
   height: 1244px;
   display: flex;
   flex-direction: column;
@@ -365,27 +454,24 @@ ul {
   flex-direction: column;
   row-gap: 30px;
   align-items: center;
-  width: 100%;
   margin-top: 52px;
   margin-top: 48px;
 }
 
 .card-work-row-1 {
-  width: 98.63%;
   height: 482px;
   display: grid;
   grid-template-columns: 32.33% 32.33% 32.33%;
-  column-gap: 2%;
+  column-gap: 4%;
   align-items: center;
   justify-content: center;
 }
 
 .card-work-row-2 {
-  width: 98.63%;
   height: 482px;
   display: grid;
   grid-template-columns: 32.33% 32.33% 32.33%;
-  column-gap: 2.078%;
+  column-gap: 4%;
   align-items: center;
   justify-content: center;
 }
@@ -393,7 +479,7 @@ ul {
 .size {
   display: grid;
   align-content: end;
-  width: 98.63%;
+  width: 375px;
   height: 474px;
   background-color: #ebf0ee;
   border: 1px solid #d0d9d4;
@@ -574,7 +660,7 @@ ul {
   margin-top: -66px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   .about-me-container {
     margin-top: 0;
     height: 1105px;
@@ -653,7 +739,7 @@ ul {
   background-color: #36b37f;
   display: flex;
   justify-content: center;
-  margin-top: 90px;
+  margin-top: 110px;
 }
 
 #get-my-resume-text {
@@ -668,17 +754,17 @@ ul {
 }
 
 .card-container {
-  width: 100%;
   height: 360px;
   margin-top: 150px;
   display: grid;
   grid-template-columns: 32.33% 32.33% 32.33%;
-  column-gap: 2%;
+  column-gap: 4%;
   justify-content: center;
 }
 
 .card-size {
   height: 352px;
+  width: 375px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1480,7 +1566,7 @@ button:hover {
   background-color: #008552;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   .social-media-container {
     margin-top: 140px;
   }
@@ -1494,7 +1580,6 @@ button:hover {
   }
 
   .card-work-row-1 {
-    width: 98.63%;
     height: 980px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -1511,7 +1596,6 @@ button:hover {
   }
 
   .card-work-row-2 {
-    width: 98.63%;
     height: 980px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -1546,7 +1630,6 @@ button:hover {
   }
 
   .card-container {
-    width: 81.32%;
     height: 730px;
     margin-top: 200px;
     display: grid;
@@ -1743,6 +1826,14 @@ button:hover {
 }
 
 @media screen and (max-width: 900px) {
+  .navigation {
+    display: none;
+  }
+
+  .side-nav-main-container {
+    display: block;
+  }
+
   .header-container {
     background-image: url(images/Header-llustration-desktop.png);
     background-repeat: no-repeat;
@@ -1799,7 +1890,6 @@ button:hover {
   }
 
   .card-work-row-1 {
-    width: 98.63%;
     height: 1470px;
     display: grid;
     grid-template-columns: 100%;
@@ -1812,7 +1902,6 @@ button:hover {
   }
 
   .card-work-row-2 {
-    width: 98.63%;
     height: 1470px;
     display: grid;
     grid-template-columns: 100%;
@@ -1843,14 +1932,12 @@ button:hover {
     margin-top: 50px;
     width: 100%;
     height: 600px;
+    display: flex;
+    flex-direction: column;
   }
 
-  .about-me-supporting-text {
-    height: 200px;
-  }
-
-  .get-my-resume {
-    margin-top: 200px;
+  .get-my-resume-container {
+    margin-top: 70px;
   }
 
   .mask-group {
@@ -1868,7 +1955,6 @@ button:hover {
   }
 
   .card-container {
-    width: 81.32%;
     height: 1130px;
     margin-top: 80px;
     display: grid;
@@ -1932,12 +2018,17 @@ button:hover {
 }
 
 @media screen and (max-width: 463px) {
-  .social-media-container {
-    margin-top: 250px;
+  .primary-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    margin-top: 44px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(41, 45, 38);
   }
-}
 
-@media screen and (max-width: 463px) {
   .social-media-container {
     display: none;
   }

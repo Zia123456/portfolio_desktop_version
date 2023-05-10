@@ -10,6 +10,50 @@
   </head>
   <body>
     <header class="header-container" id="header-container">
+      <nav class="side-nav-main-container">
+        <div class="top-bar">
+          <div class="text-welcome">
+            <p class="welcome">
+              <a href="#">Welcome</a>
+            </p>
+          </div>
+          <div class="humberger-icon-container">
+            <img
+              id="humberger-icon"
+              src="images/Enabled.png"
+              alt="not available"
+            />
+          </div>
+        </div>
+        <div class="side-nav-container">
+          <div class="close-btn-container">
+            <div class="close-btn-box-side-nav">
+              <img
+                src="images/Icon.png"
+                alt="close button"
+                class="close-btn-side-nav"
+              />
+            </div>
+          </div>
+          <ul class="side-nav-content">
+            <li class="portfolio-side-nav">
+              <a href="#header-container" class="portfolio-text-side-nav">
+                <h2 class="portfolio-text">Portfolio</h2>
+              </a>
+            </li>
+            <li class="about-side-nav">
+              <a href="#about-me-container" class="about-text-side-nav">
+                <h2 class="about-text">About</h2>
+              </a>
+            </li>
+            <li class="contact-side-nav">
+              <a href="#contact-form-container" class="contact-side-nav">
+                <h2 class="contact-text">Contact</h2>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <nav class="navigation">
         <ul class="navigation-item">
           <li class="portfolio">
@@ -429,11 +473,13 @@
               diverse backgrounds and locations.
             </p>
           </div>
-          <a href="files/resume.pdf" download>
-            <button type="button" class="get-my-resume">
-              <span id="get-my-resume-text">Get My Resume</span>
-            </button>
-          </a>
+          <div class="get-my-resume-container">
+            <a href="files/resume.pdf" download>
+              <button type="button" class="get-my-resume">
+                <span id="get-my-resume-text">Get My Resume</span>
+              </button>
+            </a>
+          </div>
         </div>
         <div class="card-container">
           <div class="grid-sub-items-languages card-size">
