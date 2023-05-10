@@ -19,21 +19,18 @@ body {
 }
 
 .side-nav-main-container {
+  width: 100%;
+  position: fixed;
   display: none;
+  z-index: 20000;
 }
 
 .top-bar {
-  width: 375px;
-  height: 92px;
+  height: 50px;
   display: flex;
-  flex-direction: column;
-}
-
-.header {
-  display: flex;
-  width: 375px;
-  height: 48px;
   justify-content: space-between;
+  align-items: center;
+  background-color: rgb(4, 153, 88);
 }
 
 .text-welcome {
@@ -55,17 +52,53 @@ body {
 }
 
 a {
-  color: black;
-}
-
-a:link {
   text-decoration: none;
+  color: #344563;
 }
 
 .humberger-icon-container {
   width: 40px;
   height: 40px;
   margin-right: 24px;
+}
+
+.side-nav-container-clicked {
+  width: 375px;
+  height: 755px;
+  position: fixed;
+  display: block;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  border: none;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 36px;
+  background-color: rgb(228, 233, 234);
+}
+
+.side-nav-container {
+  display: none;
+}
+
+.close-btn-container {
+  display: flex;
+  justify-content: end;
+}
+
+.close-btn-box-side-nav {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-nav-content {
+  height: 300px;
+}
+
+.contact-side-nav {
+  width: 100px;
+  height: 10px;
+  margin-top: -15px;
 }
 
 .headline {
@@ -77,17 +110,6 @@ a:link {
   background-image: url('images/header-illsutration-mobile@2x.png');
   background-repeat: no-repeat;
   background-size: 375px 726px;
-}
-
-.primary-text {
-  display: flex;
-  flex-direction: column;
-  width: 327px;
-  height: 193px;
-  margin-top: 64px;
-  text-align: center;
-  font-size: 30px;
-  color: rgb(41, 45, 38);
 }
 
 .header-container {
@@ -127,7 +149,7 @@ a:link {
 }
 
 .navigation.active {
-  background-color: rgb(91, 215, 132);
+  background-color: rgb(4, 153, 88);
   border-radius: 5px;
   z-index: 999;
 }
@@ -205,11 +227,6 @@ a:link {
 .contact-text {
   width: 59px;
   height: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: #344563;
 }
 
 .header-text {
@@ -1808,6 +1825,14 @@ button:hover {
 }
 
 @media screen and (max-width: 900px) {
+  .navigation {
+    display: none;
+  }
+
+  .side-nav-main-container {
+    display: block;
+  }
+
   .header-container {
     background-image: url(images/Header-llustration-desktop.png);
     background-repeat: no-repeat;
@@ -1906,14 +1931,12 @@ button:hover {
     margin-top: 50px;
     width: 100%;
     height: 600px;
+    display: flex;
+    flex-direction: column;
   }
 
-  .about-me-supporting-text {
-    height: 200px;
-  }
-
-  .get-my-resume {
-    margin-top: 200px;
+  .get-my-resume-container {
+    margin-top: 70px;
   }
 
   .mask-group {
@@ -1994,12 +2017,17 @@ button:hover {
 }
 
 @media screen and (max-width: 463px) {
-  .social-media-container {
-    margin-top: 250px;
+  .primary-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    margin-top: 44px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(41, 45, 38);
   }
-}
 
-@media screen and (max-width: 463px) {
   .social-media-container {
     display: none;
   }
