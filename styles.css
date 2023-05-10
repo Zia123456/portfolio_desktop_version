@@ -146,6 +146,7 @@ a {
   justify-content: center;
   align-items: center;
   transition: background-color 1s ease-out;
+  background-color: rgb(4, 153, 88);
 }
 
 .navigation.active {
