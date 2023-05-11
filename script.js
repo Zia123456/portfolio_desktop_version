@@ -336,9 +336,18 @@ userMessage.addEventListener('keyup', storeData);
 
 // Check for info in local-storage
 const savedUserData = localStorage.getItem('userData');
-document.getElementById('fullname').value = JSON.parse(savedUserData).nameInput;
-document.getElementById('email').value = JSON.parse(savedUserData).emailInput;
-document.querySelector('.req').value = JSON.parse(savedUserData).messageInput;
+if (savedUserData !== null) {
+  const userData = JSON.parse(savedUserData);
+  if (userData.nameInput !== null) {
+    document.getElementById('fullname').value = userData.nameInput;
+  }
+  if (userData.emailInput !== null) {
+    document.getElementById('email').value = userData.emailInput;
+  }
+  if (userData.messageInput !== null) {
+    document.querySelector('.req').value = userData.messageInput;
+  }
+}
 
 // js for typing effect
 const primaryText = document.querySelector('.primary-text');
