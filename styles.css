@@ -674,6 +674,29 @@ ul {
   width: 15%;
   height: 30.32%;
   align-self: flex-end;
+  animation: moveAndRotate 20s linear infinite; /* set the duration, timing function, and iteration count of the animation */
+}
+
+@keyframes moveAndRotate {
+  0% {
+    transform: translateY(-200px) rotate(0);
+  }
+
+  25% {
+    transform: translateX(-2000px) rotate(0);
+  }
+
+  50% {
+    transform: translateX(-1000px) rotate(0);
+  }
+
+  75% {
+    transform: translateY(200px) rotate(0);
+  }
+
+  100% {
+    transform: translateY(-200px) rotate(0); /* move the image to the center of the container and rotate it 360 degrees */
+  }
 }
 
 .about-me-sub-container {

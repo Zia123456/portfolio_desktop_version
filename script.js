@@ -353,6 +353,7 @@ if (savedUserData !== null) {
 const primaryText = document.querySelector('.primary-text');
 const supportingText = document.querySelector('.supporting-text');
 const socialMediaContainer = document.querySelector('.social-media-container');
+const aboutMe = document.querySelector('.about-me-sub-container');
 
 document.addEventListener('DOMContentLoaded', () => {
   primaryText.classList.add('fade-in'); // Add the fade-in class to trigger the animation
@@ -364,6 +365,15 @@ window.addEventListener('scroll', () => {
     primaryText.classList.add('fade-in'); // Add the fade-in class to trigger the animation
   } else {
     primaryText.classList.remove('fade-in'); // Remove the class if the user has scrolled away from the top
+  }
+});
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 1600) {
+    // Check if user has scrolled to the top
+    aboutMe.classList.add('fade-in'); // Add the fade-in class to trigger the animation
+  } else {
+    aboutMe.classList.remove('fade-in'); // Remove the class if the user has scrolled away from the top
   }
 });
 
